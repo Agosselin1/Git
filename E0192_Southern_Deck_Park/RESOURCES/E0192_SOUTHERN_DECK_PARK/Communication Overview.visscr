@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="0" SizeX="2000" SizeY="1080" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="0" YBackImage="0" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="12632256" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="1" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="1" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ListSynopticDraw>
+<child>
+<object>base</object>
+<type x="2000" y="200" width="-2000" height="-100" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="2010" y="180" width="-2010" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="24" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">COMMUNICATION OVERVIEW</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="580" y="620" width="510" height="240" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="860" y="710" width="30" height="50" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760">GTW01_B</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="633" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	obj.SetAlias("LSR", ObjectName + "."+ "LSR")
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("MODEM Info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="780" y="710" width="30" height="50" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760">GTW01_A</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="609" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	obj.SetAlias("LSR", ObjectName + "."+ "LSR")
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("MODEM Info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>base</object>
+<type x="700" y="660" width="270" height="50" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">[LV-UPS] - [LV-1]</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="580" y="630" width="510" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="24" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">GATEWAY</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="580" y="240" width="510" height="260" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="580" y="250" width="510" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="24" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">LCAM</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1110" y="240" width="510" height="610" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1110" y="246" width="510" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="24" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">NWC</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1130" y="320" width="120" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="start" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">CLUSTER
+</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1130" y="356" width="110" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="start" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">NWC1</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1130" y="396" width="110" height="40" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="start" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">NWC2</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1220" y="280" width="170" height="40" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">AVAILABLE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1400" y="280" width="160" height="40" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">PING ACTIVE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1430" y="360" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS1_NWC1_PingActive">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1250" y="360" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS1_NWC1_CF">1</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1250" y="400" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS1_NWC2_CF">1</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1430" y="320" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS1_PingActive">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1250" y="320" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS1_CF">1</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1430" y="400" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS1_NWC2_PingActive">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>EmbView</object>
+<EmbeddedView x="0" y="0" width="2000" height="100" Name="MenuBar" DrawBk="0" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="Program_MainProgram_RL3_SIGNAL">1</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>AlarmWnd</object>
+<type x="0" y="870" width="2000" height="210" fill="rgb(0,0,0)" stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>4</Border>
+<style Text="" On="" Ack="" Off="" Reset="" Duration="" TotalTimeOn="" TotalNumOn="" TotalNumAck="" TotalNumReset="" Severity="" Status="" Condition="" Image="" TextPos="0" OnPos="1" AckPos="-1" OffPos="-1" ResetPos="-1" DurationPos="2" TotalTimeOnPos="-1" TotalNumOnPos="-1" TotalNumAckPos="-1" TotalNumResetPos="-1" SeverityPos="-1" StatusPos="3" ConditionPos="-1" ImagePos="-1" FormatDateTime="" FormatDuration="" IncludeMilliseconds="0" BackHisCol="2147483653" TextHisCol="2147483656" TextWidth="870" OnWidth="385" AckWidth="200" OffWidth="200" ResetWidth="200" DurationWidth="385" TotalTimeOnWidth="200" TotalNumOnWidth="200" TotalNumAckWidth="200" TotalNumResetWidth="200" SeverityWidth="200" StatusWidth="358" ConditionWidth="200" ImageWidth="200" AutoLayout="1" ShowControl="1" OpenPreview="0" Clickable="1" IconBtn="1" AckSel="1" AckAll="1" ResetSel="1" ResetAll="1" SoundOn="1" Help="0" GetHistory="1" Comment="0" Size="1" Pos="3" AckSelTxt="" AckAllTxt="" ResetSelTxt="" ResetAllTxt="" SoundOnTxt="" HelpTxt="" GetHistoryTxt="" CommentTxt=""/>
+<execution BlinkTime="1000" NetworkServer="" BackupServer="" MaxCount="1000" Refresh="1000" OPCAEServer="" MaxOPCAEEvents="1000"/>
+<Filter Area="" Alarm="" type="15" severity="0" condition="0"/>
+<ListFont font-family="Arial" font-size="12" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" XOffset="0" YOffset="0"/>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="12" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="950" y="320" width="-350" height="-20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="start" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">WESTBOUND PHOTOMETER</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="600" y="400" width="350" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="start" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">EASTBOUND PHOTOMETER</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1080" y="320" width="-110" height="-20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="LCAM_WB:Alarm">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32677"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32678"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1080" y="420" width="-110" height="-20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="LCAM_EB:Alarm">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32677"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32678"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="590" y="770" width="275" height="81" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2163</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="647" y="821" width="300" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2161</Name>
+<text font-family="Arial" font-size="12" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Ok</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(255,255,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="610,806 630,806 620,776 620,776">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="5" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">0</BG>
+<BGList>
+<dci>
+<DynColor Color="32768"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="4"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="5"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="6"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="8"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="128"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="255"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="141516"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1116" y="440" width="490" height="40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" p3D="1" Border="2">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name ShowVarTooltip="1" PubName="NWC" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" AntialiasingFont="1" acr="4294901760" StatusVariable="TLACS_NVB:Timezone" StatusShowRedSign="1">TLACS</Name>
+<text font-family="Arial" font-size="16" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">DETAILS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<AliasesList>
+<item key="QualityPnt" value="SingleBench:Timezone"/>
+</AliasesList>
+<ScriptCode StartSel="47" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub Click()
+	globalNWCID = ObjectName
+
+	OpenSynopticEx("NWC Info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>base</object>
+<type x="580" y="510" width="510" height="100" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="580" y="520" width="510" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="24" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">PLC</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="950" y="580" width="-350" height="-20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="16" text-anchor="start" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">PLC STATUS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="970" y="560" width="110" height="20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="PLC_CF">1</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="590" y="440" width="490" height="40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" p3D="1" Border="2">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name ShowVarTooltip="1" PubName="NWC" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" AntialiasingFont="1" acr="4294901760" StatusVariable="TLACS_NVB:Timezone" StatusShowRedSign="1">TLACS</Name>
+<text font-family="Arial" font-size="16" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">DETAILS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<AliasesList>
+<item key="QualityPnt" value="SingleBench:Timezone"/>
+</AliasesList>
+<ScriptCode StartSel="47" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub Click()
+
+	globalLCAMID = "LCAM_EB"
+
+	OpenSynopticEx("LCAM info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>base</object>
+<type x="590" y="340" width="490" height="40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round" p3D="1" Border="2">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name ShowVarTooltip="1" PubName="NWC" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" AntialiasingFont="1" acr="4294901760" StatusVariable="TLACS_NVB:Timezone" StatusShowRedSign="1">TLACS</Name>
+<text font-family="Arial" font-size="16" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">DETAILS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<AliasesList>
+<item key="QualityPnt" value="SingleBench:Timezone"/>
+</AliasesList>
+<ScriptCode StartSel="50" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub Click()
+
+	globalLCAMID = "LCAM_WB"
+	
+	OpenSynopticEx("LCAM info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1119" y="494" width="490" height="130" ox="896" oy="349" owidth="392" oheight="104"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="0" y="0" width="392" height="104" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle419</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="0" y="8" width="392" height="64" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle410</Name>
+<text font-family="Arial" font-size="13" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">TOTAL NUMBER OF LUMINAIRES IN COMMUNICATION FAILURE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="160" y="72" width="80" height="24" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle411</Name>
+<text font-family="Arial Narrow" font-size="13" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">####</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="TLACS:TotalCommFailLPCs" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="1119" y="633" width="490" height="210" ox="896" oy="461" owidth="392" oheight="168"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="0" y="0" width="392" height="168" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle419</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="0" y="8" width="392" height="24" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle410</Name>
+<text font-family="Arial" font-size="13" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"> TLACS REDUNDANCY STATUS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="0" y="40" width="192" height="24" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle412</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">PRIMARY ACTIVE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="200" y="40" width="192" height="24" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle412</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">SECONDARY ACTIVE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="0" y="96" width="192" height="40" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle412</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">SECONDARY HEALTHY</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="200" y="96" width="192" height="40" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle412</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">SECONDARY UP TO DATE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="48" y="67" width="88" height="16" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle45</Name>
+<text font-family="Arial" font-size="6" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS_RedundancyStatus.0">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="248" y="67" width="88" height="16" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle46</Name>
+<text font-family="Arial" font-size="6" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS_RedundancyStatus.1">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="48" y="131" width="88" height="16" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle47</Name>
+<text font-family="Arial" font-size="6" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS_RedundancyStatus.2">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="248" y="131" width="88" height="16" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle48</Name>
+<text font-family="Arial" font-size="6" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="TLACS_RedundancyStatus.3">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(255,255,255)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="610,840 630,840 620,810 620,810">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="5" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="32768"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="4"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="5"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="6"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="8"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="128"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="255"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="141516"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="647" y="783" width="300" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2161</Name>
+<text font-family="Arial" font-size="12" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Intermittent communication</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>

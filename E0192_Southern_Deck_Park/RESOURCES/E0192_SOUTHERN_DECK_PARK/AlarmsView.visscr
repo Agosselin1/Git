@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="0" SizeX="1920" SizeY="1080" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="0" YBackImage="0" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="12632256" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="0" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="1" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ListSynopticDraw>
+<child>
+<object>AlarmWnd</object>
+<type x="0" y="220" width="1920" height="850" fill="rgb(0,0,0)" stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>4</Border>
+<style Text="" On="" Ack="" Off="" Reset="" Duration="" TotalTimeOn="" TotalNumOn="" TotalNumAck="" TotalNumReset="" Severity="" Status="" Condition="" Image="" TextPos="0" OnPos="1" AckPos="-1" OffPos="-1" ResetPos="-1" DurationPos="2" TotalTimeOnPos="-1" TotalNumOnPos="-1" TotalNumAckPos="-1" TotalNumResetPos="-1" SeverityPos="3" StatusPos="-1" ConditionPos="4" ImagePos="-1" FormatDateTime="" FormatDuration="" IncludeMilliseconds="0" BackHisCol="2147483653" TextHisCol="2147483656" TextWidth="431" OnWidth="372" AckWidth="200" OffWidth="200" ResetWidth="200" DurationWidth="372" TotalTimeOnWidth="200" TotalNumOnWidth="200" TotalNumAckWidth="200" TotalNumResetWidth="200" SeverityWidth="370" StatusWidth="200" ConditionWidth="372" ImageWidth="200" AutoLayout="1" ShowControl="1" OpenPreview="0" Clickable="1" IconBtn="1" AckSel="1" AckAll="1" ResetSel="1" ResetAll="1" SoundOn="1" Help="1" GetHistory="1" Comment="1" Size="0" Pos="3" AckSelTxt="" AckAllTxt="" ResetSelTxt="" ResetAllTxt="" SoundOnTxt="" HelpTxt="" GetHistoryTxt="" CommentTxt=""/>
+<execution BlinkTime="1000" NetworkServer="" BackupServer="" MaxCount="1000" Refresh="1000" OPCAEServer="" MaxOPCAEEvents="1000"/>
+<Filter Area="" Alarm="" type="15" severity="0" condition="0"/>
+<ListFont font-family="Arial" font-size="14" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" XOffset="0" YOffset="0"/>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1920" y="210" width="-1920" height="-110" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1920" y="180" width="-1920" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="22" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">ALARMS VIEW</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>EmbView</object>
+<EmbeddedView x="0" y="0" width="1920" height="100" Name="MenuBar" DrawBk="0" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>

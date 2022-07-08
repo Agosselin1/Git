@@ -1,0 +1,171 @@
+
+2022-07-07 10:14:37 AM Driver initialized correctly
+2022-07-07 10:14:37 AM Invalid Station TLACS1 for Variable TLACS3_NLP2_ContactInputs
+2022-07-07 10:14:37 AM Invalid Station TLACS1 for Variable TLACS2_NLP1_ContactInputs
+2022-07-07 10:14:37 AM Invalid Station TLACS1 for Variable TLACS1_ELP1_ContactInputs
+2022-07-07 10:14:38 AM Invalid Station TLACS1 for Variable TLACS4_NLP3_ContactInputs
+2022-07-07 10:14:38 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Voltage_12
+2022-07-07 10:14:38 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Voltage_12
+2022-07-07 10:14:38 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Voltage_12
+2022-07-07 10:14:38 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Voltage_5
+2022-07-07 10:14:39 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Voltage_5
+2022-07-07 10:14:39 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Voltage_5
+2022-07-07 10:14:39 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Voltage_33
+2022-07-07 10:14:39 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Voltage_33
+2022-07-07 10:14:39 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Voltage_33
+2022-07-07 10:14:40 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Temperature
+2022-07-07 10:14:40 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Temperature
+2022-07-07 10:14:40 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Temperature
+2022-07-07 10:14:40 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Major
+2022-07-07 10:14:40 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Major
+2022-07-07 10:14:41 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Major
+2022-07-07 10:14:41 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Minor
+2022-07-07 10:14:41 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Minor
+2022-07-07 10:14:41 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Minor
+2022-07-07 10:14:41 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Revision
+2022-07-07 10:14:42 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Revision
+2022-07-07 10:14:42 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Revision
+2022-07-07 10:14:42 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Compilation
+2022-07-07 10:14:42 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Compilation
+2022-07-07 10:14:42 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Compilation
+2022-07-07 10:14:43 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Latitude
+2022-07-07 10:14:43 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Latitude
+2022-07-07 10:14:43 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Latitude
+2022-07-07 10:14:43 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Longitude
+2022-07-07 10:14:43 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Longitude
+2022-07-07 10:14:44 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Longitude
+2022-07-07 10:14:44 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Timezone
+2022-07-07 10:14:44 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Timezone
+2022-07-07 10:14:44 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Timezone
+2022-07-07 10:14:44 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:TotalNumberLPCs
+2022-07-07 10:14:45 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:TotalNumberLPCs
+2022-07-07 10:14:45 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:TotalNumberLPCs
+2022-07-07 10:14:45 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:TotalCommFailLPCs
+2022-07-07 10:14:45 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:TotalCommFailLPCs
+2022-07-07 10:14:45 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:TotalCommFailLPCs
+2022-07-07 10:14:46 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:TotalAlarmLPCs
+2022-07-07 10:14:46 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:TotalAlarmLPCs
+2022-07-07 10:14:46 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:TotalAlarmLPCs
+2022-07-07 10:14:46 AM Invalid Station TLACS1 for Variable TLACS4_NLP3:Energy
+2022-07-07 10:14:46 AM Invalid Station TLACS1 for Variable TLACS3_NLP2:Energy
+2022-07-07 10:14:47 AM Invalid Station TLACS1 for Variable TLACS2_NLP1:Energy
+2022-07-07 10:14:47 AM Invalid Station TLACS1 for Variable TLACS1_ELP1_MaintenanceLSR
+2022-07-07 10:14:47 AM Invalid Station TLACS1 for Variable TLACS2_NLP1_MaintenanceLSR
+2022-07-07 10:14:47 AM Invalid Station TLACS1 for Variable TLACS3_NLP2_MaintenanceLSR
+2022-07-07 10:14:47 AM Invalid Station TLACS1 for Variable TLACS4_NLP3_MaintenanceLSR
+2022-07-07 10:14:48 AM Invalid Station TLACS1 for Variable TLACS2_NLP1_PingActive
+2022-07-07 10:14:48 AM Invalid Station TLACS1 for Variable TLACS3_NLP2_PingActive
+2022-07-07 10:14:48 AM Invalid Station TLACS1 for Variable TLACS4_NLP3_PingActive
+2022-07-07 10:14:48 AM Invalid Station TLACS1 for Variable TLACS1_ELP1_PingActive
+2022-07-07 10:14:48 AM Invalid Station TLACS1 for Variable TLACS1_ELP1_RedStatus
+2022-07-07 10:14:49 AM Invalid Station TLACS1 for Variable TLACS2_NLP1_RedStatus
+2022-07-07 10:14:49 AM Invalid Station TLACS1 for Variable TLACS3_NLP2_RedStatus
+2022-07-07 10:14:49 AM Invalid Station TLACS1 for Variable TLACS4_NLP3_RedStatus
+2022-07-07 10:14:50 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Voltage_12
+2022-07-07 10:14:50 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Voltage_5
+2022-07-07 10:14:50 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Voltage_33
+2022-07-07 10:14:51 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Temperature
+2022-07-07 10:14:51 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Major
+2022-07-07 10:14:51 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Minor
+2022-07-07 10:14:51 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Revision
+2022-07-07 10:14:51 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Compilation
+2022-07-07 10:14:52 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Latitude
+2022-07-07 10:14:52 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Longitude
+2022-07-07 10:14:52 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Timezone
+2022-07-07 10:14:52 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:TotalNumberLPCs
+2022-07-07 10:14:52 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:TotalCommFailLPCs
+2022-07-07 10:14:53 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:TotalAlarmLPCs
+2022-07-07 10:14:53 AM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Energy
+2022-07-07 10:14:53 AM InUse Variable Manager Enable : 1
+2022-07-07 10:14:54 AM Driver Started
+2022-07-07 10:15:15 AM Communication error : station TLACS1_ELP1, error A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+2022-07-07 10:15:15 AM Station quality changed : station TLACS1_ELP1, quality bitfield 0
+2022-07-07 10:15:37 AM Shutting Down...
+2022-07-07 10:15:52 AM Driver initialized correctly
+2022-07-07 10:15:53 AM InUse Variable Manager Enable : 1
+2022-07-07 10:15:53 AM Driver Started
+2022-07-07 10:16:15 AM Communication error : station TLACS1_ELP1, error A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+2022-07-07 10:16:16 AM Station quality changed : station TLACS1_ELP1, quality bitfield 0
+2022-07-07 10:16:22 AM Shutting Down...
+2022-07-07 3:34:44 PM Driver initialized correctly
+2022-07-07 3:34:45 PM Invalid Station TLACS1 for Variable TLACS3_NLP2_ContactInputs
+2022-07-07 3:34:45 PM Invalid Station TLACS1 for Variable TLACS2_NLP1_ContactInputs
+2022-07-07 3:34:45 PM Invalid Station TLACS1 for Variable TLACS4_NLP3_ContactInputs
+2022-07-07 3:34:46 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Voltage_12
+2022-07-07 3:34:46 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Voltage_12
+2022-07-07 3:34:46 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Voltage_12
+2022-07-07 3:34:46 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Voltage_5
+2022-07-07 3:34:46 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Voltage_5
+2022-07-07 3:34:47 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Voltage_5
+2022-07-07 3:34:47 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Voltage_33
+2022-07-07 3:34:47 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Voltage_33
+2022-07-07 3:34:47 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Voltage_33
+2022-07-07 3:34:47 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Temperature
+2022-07-07 3:34:48 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Temperature
+2022-07-07 3:34:48 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Temperature
+2022-07-07 3:34:48 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Major
+2022-07-07 3:34:48 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Major
+2022-07-07 3:34:48 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Major
+2022-07-07 3:34:49 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Minor
+2022-07-07 3:34:49 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Minor
+2022-07-07 3:34:49 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Minor
+2022-07-07 3:34:49 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Revision
+2022-07-07 3:34:49 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Revision
+2022-07-07 3:34:50 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Revision
+2022-07-07 3:34:50 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:FW_Compilation
+2022-07-07 3:34:50 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:FW_Compilation
+2022-07-07 3:34:50 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:FW_Compilation
+2022-07-07 3:34:50 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Latitude
+2022-07-07 3:34:51 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Latitude
+2022-07-07 3:34:51 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Latitude
+2022-07-07 3:34:51 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Longitude
+2022-07-07 3:34:51 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Longitude
+2022-07-07 3:34:51 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Longitude
+2022-07-07 3:34:52 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Timezone
+2022-07-07 3:34:52 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Timezone
+2022-07-07 3:34:52 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Timezone
+2022-07-07 3:34:52 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:TotalNumberLPCs
+2022-07-07 3:34:52 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:TotalNumberLPCs
+2022-07-07 3:34:53 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:TotalNumberLPCs
+2022-07-07 3:34:53 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:TotalCommFailLPCs
+2022-07-07 3:34:53 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:TotalCommFailLPCs
+2022-07-07 3:34:53 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:TotalCommFailLPCs
+2022-07-07 3:34:53 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:TotalAlarmLPCs
+2022-07-07 3:34:54 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:TotalAlarmLPCs
+2022-07-07 3:34:54 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:TotalAlarmLPCs
+2022-07-07 3:34:54 PM Invalid Station TLACS1 for Variable TLACS2_NLP1:Energy
+2022-07-07 3:34:54 PM Invalid Station TLACS1 for Variable TLACS4_NLP3:Energy
+2022-07-07 3:34:54 PM Invalid Station TLACS1 for Variable TLACS3_NLP2:Energy
+2022-07-07 3:34:55 PM Invalid Station TLACS1 for Variable TLACS1_ELP1_MaintenanceLSR
+2022-07-07 3:34:55 PM Invalid Station TLACS1 for Variable TLACS3_NLP2_MaintenanceLSR
+2022-07-07 3:34:55 PM Invalid Station TLACS1 for Variable TLACS2_NLP1_MaintenanceLSR
+2022-07-07 3:34:55 PM Invalid Station TLACS1 for Variable TLACS4_NLP3_MaintenanceLSR
+2022-07-07 3:34:55 PM Invalid Station TLACS1 for Variable TLACS2_NLP1_PingActive
+2022-07-07 3:34:56 PM Invalid Station TLACS1 for Variable TLACS3_NLP2_PingActive
+2022-07-07 3:34:56 PM Invalid Station TLACS1 for Variable TLACS4_NLP3_PingActive
+2022-07-07 3:34:56 PM Invalid Station TLACS1 for Variable TLACS1_ELP1_PingActive
+2022-07-07 3:34:56 PM Invalid Station TLACS1 for Variable TLACS3_NLP2_RedStatus
+2022-07-07 3:34:56 PM Invalid Station TLACS1 for Variable TLACS4_NLP3_RedStatus
+2022-07-07 3:35:02 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Voltage_12
+2022-07-07 3:35:02 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Voltage_5
+2022-07-07 3:35:02 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Voltage_33
+2022-07-07 3:35:03 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Temperature
+2022-07-07 3:35:03 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Major
+2022-07-07 3:35:03 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Minor
+2022-07-07 3:35:03 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Revision
+2022-07-07 3:35:03 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:FW_Compilation
+2022-07-07 3:35:04 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Latitude
+2022-07-07 3:35:04 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Longitude
+2022-07-07 3:35:04 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Timezone
+2022-07-07 3:35:04 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:TotalNumberLPCs
+2022-07-07 3:35:04 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:TotalCommFailLPCs
+2022-07-07 3:35:05 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:TotalAlarmLPCs
+2022-07-07 3:35:05 PM Invalid Station TLACS_ELP1 for Variable TLACS1_ELP1:Energy
+2022-07-07 3:35:06 PM InUse Variable Manager Enable : 1
+2022-07-07 3:35:06 PM Driver Started
+2022-07-07 3:35:28 PM Communication error : station TLACS1_ELP1, error A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+2022-07-07 3:35:28 PM Station quality changed : station TLACS1_ELP1, quality bitfield 0
+2022-07-07 3:38:46 PM Shutting Down...

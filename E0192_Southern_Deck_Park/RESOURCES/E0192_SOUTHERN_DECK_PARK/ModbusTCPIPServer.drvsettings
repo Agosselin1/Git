@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<GeneralSettings WaitTime="0" TimeOut="2000" SynchroStart="false" MinimumJobThreshold="0" DefRefreshTimeNotInUse="0" EnableCOMInterface="true" PollingTime="0" PollingTimeNotInUse="0" PriorityProtocolThread="0" BaseClassBuild="286" DriverVersion="184615939" AggregationLimit="0" DirectWriteIO="false" SetInUseStructureFields="false" SuspendTasksInError="false" szWinCEProtocolPriority="-1" ExpandGroup1="0"/>
+<Debug DebugWindow="false" MaxLogEntries="10000" LogFileName="" EnableLogFile="true" ExpandGroup2="0"/>
+<TCPIPServer LocalBoundAddress="" LocalBoundPort="502" ExpandModbusGroup1="0"/>
+<JobList/>
+<StationList/>
+</DriverSettings>

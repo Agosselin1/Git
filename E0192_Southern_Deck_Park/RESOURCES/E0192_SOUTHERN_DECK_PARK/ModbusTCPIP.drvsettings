@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<DriverSettings>
+<GeneralSettings WaitTime="0" TimeOut="2000" SynchroStart="false" MinimumJobThreshold="5" DefRefreshTimeNotInUse="0" EnableCOMInterface="true" PollingTime="0" PollingTimeNotInUse="10000" PriorityProtocolThread="0" BaseClassBuild="286" DriverVersion="184615954" AggregationLimit="0" DirectWriteIO="false" SetInUseStructureFields="false" SuspendTasksInError="true" szWinCEProtocolPriority="-1" ExpandGroup1="1"/>
+<Debug DebugWindow="true" MaxLogEntries="10000" LogFileName="" EnableLogFile="true" ExpandGroup2="1"/>
+<ModbusTCPSettings SingleSocket="0" SplitStructures="true" ExpandSpecificGroup1="1"/>
+<JobList/>
+<StationList>
+<Station>
+<Name MaxRetries="0" StateVariable="PLC_CF" ExpandGroup1="1">PLC</Name>
+<Server ServerAddress="" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="1"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="1"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="1"/>
+</Station>
+<Station>
+<Name MaxRetries="0" StateVariable="TLACS1_ELP1_CF" ExpandGroup1="1">TLACS1_ELP1</Name>
+<Server ServerAddress="10.0.8.11" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="0"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="0"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="0"/>
+</Station>
+<Station>
+<Name MaxRetries="0" StateVariable="TLACS2_NLP1_CF" ExpandGroup1="1">TLACS2_NLP1</Name>
+<Server ServerAddress="10.0.8.12" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="0"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="0"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="0"/>
+</Station>
+<Station>
+<Name MaxRetries="0" StateVariable="TLACS4_NLP3_CF" ExpandGroup1="1">TLACS4_NLP3</Name>
+<Server ServerAddress="10.0.8.14" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="0"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="0"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="0"/>
+</Station>
+<Station>
+<Name MaxRetries="0" StateVariable="TLACS3_NLP2_CF" ExpandGroup1="1">TLACS3_NLP2</Name>
+<Server ServerAddress="10.0.8.13" ServerPort="502" BackupServerAddress="" SwitchServerTimeout="10000" LocalBoundAddress="" LocalBoundPort="0" UsePing="false" ExpandTcpGroup1="1"/>
+<Queue MaxReceive="1024" MaxSend="1024" ExpandTcpGroup2="0"/>
+<Timeouts RxTimeout="5000" TxTimeout="5000" ExpandTcpGroup3="0"/>
+<RASSettings PhoneBookEntry="" PhoneNumber="" UserName=" " Password=" " Retries="3" DisconnectAfterSecs="10" EnableRASCallOnThisStation="false" PromptForConnection="false" RetryAfterSecs="30" DialOnlyOnCommand="false" ExpandRasGroup1="0"/>
+</Station>
+</StationList>
+</DriverSettings>

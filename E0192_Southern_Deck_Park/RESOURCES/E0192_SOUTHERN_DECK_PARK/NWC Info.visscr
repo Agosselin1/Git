@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="0" SizeX="550" SizeY="380" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="0" YBackImage="0" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="13816530" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="1" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="25" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ScriptCode StartSel="439" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SynopticLoading()
+	Dim runObject As DrawCmdTarget
+	Dim s As String
+
+	'use the global variable to get the zoneID
+
+	'set the global Zone ID as identification text
+	Set runObject=GetSubObject("txtNWCID")
+	If Not (runObject Is Nothing ) Then
+		runObject.Title = globalNWCID
+	End If
+
+	'link structure members to data fields alias
+	Set runObject=GetSubObject("txtTemperatureValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtTimezoneValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtVoltage12Value")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtVoltage5Value")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtVoltage33Value")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtLatitudeValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtLongitudeValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtFW_MajorValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtFW_MinorValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtFW_RevisionValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtFW_CompilationValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+
+
+	Set runObject=GetSubObject("txtNumberLPCValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtNumberCFValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+	Set runObject=GetSubObject("txtNumberRAValue")
+	If Not (runObject Is Nothing ) Then
+		s =globalNWCID + "." + runObject.GetAliasListName()
+		runObject.SetAlias (runObject.GetAliasListName(), s)
+	End If
+
+	Set runObject=GetSubObject("LSRMaintenance")
+	If Not (runObject Is Nothing) Then
+		s = globalNWCID + "__MaintenanceLSR"' + runObject.GetAliasListName()
+'		runObject.SetAlias (runObject.GetAliasListName(),s)
+
+		globalMaintenanceLSR = GetVariableValue(s)
+		Select Case globalMaintenanceLSR
+		Case "1"
+			runObject.Title = "LSR 1: All Off"
+		Case "2"
+			runObject.Title = "LSR 2: Night"
+		Case "3"
+			runObject.Title = "LSR 3: Dusk"
+		Case "4"
+			runObject.Title = "LSR 4: Day 01"
+		Case "5"
+			runObject.Title = "LSR 5: Day 02"
+		Case "6"
+			runObject.Title = "LSR 6: Day 03"
+		Case "7"
+			runObject.Title = "LSR 7: Day 04"
+		Case "8"
+			runObject.Title = "LSR 8: Day 05"
+		Case "9"
+			runObject.Title = "LSR 9: Day 06"
+		Case "10"
+			runObject.Title = "LSR 10: Day 07"
+		Case "11"
+			runObject.Title = "LSR 11: Day 08"
+		Case "12"
+			runObject.Title = "LSR 12: Day 09"
+		Case "128"
+			runObject.Title = "Automatic"
+		Case Else
+			runObject.Title = "Other"
+		End Select
+	End If
+End Sub
+</ScriptCode>
+<ListSynopticDraw>
+<child>
+<object>base</object>
+<type x="320" y="290" width="-310" height="-260" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Button</object>
+<type x="540" y="362" width="-160" height="-52" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="" MechanicStyle="0" CentralZero="0" PushStyleEx3="92" PushStyleEx2="37" PushStyleEx="35" PushStyle="16" clickable="1" NumOptBtn="5" RadioCheckSize="0">0</Mechanic>
+<Commands/>
+<CommandsWhileDown/>
+<CommandsOnDown n0="&lt;CommandType synoptic=&quot;&quot; action=&quot;5&quot; monitor=&quot;0&quot; parameter=&quot;&quot; x=&quot;100&quot; y=&quot;100&quot; width=&quot;0&quot; height=&quot;0&quot; Caption=&quot;1&quot; Border=&quot;1&quot; Resizeable=&quot;0&quot; SysMenu=&quot;0&quot; MinimizeBox=&quot;0&quot; MaximizeBox=&quot;0&quot; KeepPrintProportions=&quot;0&quot; PageW=&quot;-1&quot; PageH=&quot;-1&quot; LMargin=&quot;-1&quot; RMargin=&quot;-1&quot; TMargin=&quot;-1&quot; BMargin=&quot;-1&quot;&gt;Synoptic&lt;/CommandType&gt;
+"/>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">clsButton</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">CLOSE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="320" y="31" width="-310" height="-21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtNWCID</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Text - Display Value</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="130" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtTemperatureValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Temperature&gt;&gt;" Format="x.x °C">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="180" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtVoltage12Value</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Voltage_12&gt;&gt;" Format="x.x V">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="160" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">12 Volt</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="110" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Temperature</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="230" y="260" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtLatitudeValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Latitude&gt;&gt;" Format="x.xxxx°">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="180" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">5 Volt</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="260" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtLongitudeValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Longitude&gt;&gt;" Format="x.xxxx°">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="200" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">3.3 Volt</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="240" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Location (LON-LAT)</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="200" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtVoltage5Value</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Voltage_5&gt;&gt;" Format="x.x V">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="221" width="-70" height="-21" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtVoltage33Value</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Voltage_33&gt;&gt;" Format="x.x V">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="130" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Time zone</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="151" width="-70" height="-21" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtTimezoneValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="TLACS:Timezone" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="260" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Firmware version</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="190" y="281" width="-20" height="-21" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtFW_MajorValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;FW_Major&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="210" y="281" width="-20" height="-21" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtFW_MinorValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;FW_Minor&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="230" y="281" width="-20" height="-21" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtFW_RevisionValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;FW_Revision&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="281" width="-70" height="-21" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtFW_CompilationValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;FW_Compilation&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>Edit</object>
+<editbox x="538" y="300" width="-210" height="-290" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<style fmtscale="" HasList="1" ShowControlList="0" ListData="LSR 1: All Off|LSR 2: Night|LSR 3: Dusk|LSR 4: Day 01|LSR 5: Day 02|LSR 6: Day 03|LSR 7: Day 04|LSR 8: Day 05|LSR 9: Day 06|LSR 10: Day 07|LSR 11: Day 08|LSR 12: Day 09|Automatic|" SortItems="0" InvertSelection="0"/>
+<border>4</border>
+<execution max="1000"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">LSRMaintenance</Name>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="55" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub OnTextChanged(ByRef ChangedText As String)
+	globalMaintenanceLSR = Title
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>Button</object>
+<type x="368" y="362" width="-160" height="-52" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="" MechanicStyle="0" CentralZero="0" PushStyleEx3="92" PushStyleEx2="37" PushStyleEx="35" PushStyle="16" clickable="1" NumOptBtn="5" RadioCheckSize="0">0</Mechanic>
+<Commands/>
+<CommandsWhileDown/>
+<CommandsOnDown/>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760" AccessLevel="1"/>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">SET LIGHTNING LEVEL</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="577" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub Click()
+	Dim ctrlValue As Integer
+		Select Case globalMaintenanceLSR
+		Case"LSR 1: All Off"
+			ctrlValue = 1
+		Case"LSR 2: Night"
+			ctrlValue = 2
+		Case"LSR 3: Dusk"
+			ctrlValue = 3
+		Case"LSR 4: Day 01"
+			ctrlValue = 4
+		Case"LSR 5: Day 02"
+			ctrlValue = 5
+		Case"LSR 6: Day 03"
+			ctrlValue = 6
+		Case"LSR 7: Day 04"
+			ctrlValue = 7
+		Case"LSR 8: Day 05"
+			ctrlValue = 8
+		Case"LSR 9: Day 06"
+			ctrlValue = 9
+		Case"LSR 10: Day 07"
+			ctrlValue = 10
+		Case"LSR 11: Day 08"
+			ctrlValue = 11
+		Case"LSR 12: Day 09"
+			ctrlValue = 12
+		Case "Automatic"
+			ctrlValue = 128
+		Case Else
+			ctrlValue = 128
+		End Select
+
+	Dim s As String
+	s = globalNWCID + "__MaintenanceLSR"
+	SetVariableValue(s, ctrlValue)
+
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="40" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Total number of LPCs</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="60" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtNumberLPCValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="TLACS:TotalNumberLPCs" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="80" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtNumberCFValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="TLACS:TotalCommFailLPCs" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="60" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Total comm. Fail</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="310" y="100" width="-70" height="-20" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtNumberRAValue</Name>
+<text font-family="Arial" font-size="10" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;TotalAlarmLPCs&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="80" width="160" height="21" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="10" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Total relay alarms</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>

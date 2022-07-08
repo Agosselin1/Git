@@ -1,0 +1,5867 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="0" SizeX="1920" SizeY="1080" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="350" YBackImage="120" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="12632256" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="1" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="1" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ScriptCode StartSel="175" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub OnStartSynapsisExecution()
+
+End Sub
+
+'Replaced Variable  'globalZONEID' with new name 'globalZoneID'
+Public Sub SynopticLoading()
+	globalForceID = ""
+End Sub
+</ScriptCode>
+<ListSynopticDraw>
+<child>
+<object>base</object>
+<type x="1900" y="560" width="-530" height="-180" fill="rgb(255,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle51</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1370" y="560" width="-1050" height="-180" fill="rgb(255,255,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle51</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(128,128,128)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="440,530 420,550 420,540 400,540 400,520 420,520 420,510 440,530">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1920" y="210" width="-1920" height="-100" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="2010" y="190" width="-2010" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="22" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">EASTBOUND</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="550" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E01</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="570" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E02</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="600" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E03</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="630" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E04</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="680" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E06</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="660" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E05</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="710" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E07</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="790" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E10</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="820" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E11</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="900" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E14</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="960" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E16</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1010" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E18</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1070" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E20</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1150" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E23</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1180" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E24</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1260" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1340" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E30</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1410" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E32</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1430" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E33</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1460" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E34</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(128,128,128)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="1810,520 1790,540 1790,530 1770,530 1770,510 1790,510 1790,500 1810,520">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="1550" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E37</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1520" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E36</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1610" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E39</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1580" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E38</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1640" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E40</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1670" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E41</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>EmbView</object>
+<EmbeddedView x="0" y="0" width="1920" height="100" Name="MenuBar" DrawBk="0" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1360" y="880" width="-1360" height="-180" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle1</Name>
+<text font-family="Arial" font-size="14" text-anchor="top" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">LEGEND</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1010" y="870" width="-320" height="-130" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2163</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="690" y="750" width="320" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2151</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">CONTROLLER STATUS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="730" y="780" width="230" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2161</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Communication intermittent</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="730" y="810" width="150" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2162</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Information</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(255,255,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="710,800 720,800 710,780 700,800">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="4" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="32768"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="4"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="5"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="6"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="8"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="128"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="255"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="141516"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(0,255,255)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="710,830 720,830 710,810 700,830">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="4" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="32768"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="4"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="5"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="6"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="8"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="128"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="255"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="141516"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>poly</object>
+<type fill="rgb(255,0,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="710,860 720,860 710,840 700,860">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="4" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="32768"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="4"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="5"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="6"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="8"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="128"/>
+</dci>
+<dci>
+<DynColor Color="32768" Value="255"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="141516"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="730" y="840" width="150" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2162</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Alarm</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1350" y="870" width="-320" height="-130" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2163</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1030" y="750" width="320" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2151</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">PHOTOMETER STATUS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1060" y="800" width="-20" height="-20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse43</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="MVB_PhotoMeter:Alarm">0</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1060" y="830" width="-20" height="-20" fill="rgb(255,255,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse44</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="MVB_PhotoMeter:Alarm">0</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1060" y="860" width="-20" height="-20" fill="rgb(255,0,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse45</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="MVB_PhotoMeter:Alarm">0</BG>
+<BGList>
+<dci>
+<DynColor Color="65280"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="1"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="1070" y="810" width="270" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2161</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Communication intermittent</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1070" y="840" width="150" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2162</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Alarm</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1070" y="780" width="150" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2161</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Ok</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="330" y="870" width="-320" height="-130" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2164</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="10" y="750" width="320" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2140</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">LUMINAIRE STATUS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="60" y="780" width="150" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2141</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Luminaire is OFF</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="60" y="820" width="150" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2150</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Luminaire is ON</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="780" width="20" height="30" fill="rgb(128,128,128)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="1" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;LSR&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="30" y="820" width="20" height="30" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="1" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;LSR&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="670" y="870" width="-320" height="-130" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2165</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="400" y="750" width="200" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2124</Name>
+<text font-family="Arial" font-size="14" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">FIXTURE TYPE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="400" y="820" width="150" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2134</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Tunnel lights</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="400" y="780" width="250" height="30" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle2135</Name>
+<text font-family="Arial" font-size="12" text-anchor="middle-start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Emergency and night lights</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="370" y="820" width="20" height="30" fill="rgb(128,128,128)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="4" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;LSR&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="370" y="780" width="20" height="30" fill="rgb(128,128,128)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="4" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="65280" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;LSR&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>AlarmWnd</object>
+<type x="0" y="890" width="1920" height="190" fill="rgb(0,0,0)" stroke="rgb(255,0,0)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>4</Border>
+<style Text="" On="" Ack="" Off="" Reset="" Duration="" TotalTimeOn="" TotalNumOn="" TotalNumAck="" TotalNumReset="" Severity="" Status="" Condition="" Image="" TextPos="0" OnPos="1" AckPos="-1" OffPos="-1" ResetPos="-1" DurationPos="2" TotalTimeOnPos="-1" TotalNumOnPos="-1" TotalNumAckPos="-1" TotalNumResetPos="-1" SeverityPos="-1" StatusPos="3" ConditionPos="-1" ImagePos="-1" FormatDateTime="" FormatDuration="" IncludeMilliseconds="0" BackHisCol="2147483653" TextHisCol="2147483656" TextWidth="840" OnWidth="375" AckWidth="200" OffWidth="200" ResetWidth="200" DurationWidth="461" TotalTimeOnWidth="200" TotalNumOnWidth="200" TotalNumAckWidth="200" TotalNumResetWidth="200" SeverityWidth="200" StatusWidth="242" ConditionWidth="200" ImageWidth="200" AutoLayout="1" ShowControl="1" OpenPreview="0" Clickable="1" IconBtn="1" AckSel="1" AckAll="1" ResetSel="1" ResetAll="1" SoundOn="1" Help="0" GetHistory="1" Comment="0" Size="1" Pos="3" AckSelTxt="" AckAllTxt="" ResetSelTxt="" ResetAllTxt="" SoundOnTxt="" HelpTxt="" GetHistoryTxt="" CommentTxt=""/>
+<execution BlinkTime="1000" NetworkServer="" BackupServer="" MaxCount="1000" Refresh="1000" OPCAEServer="" MaxOPCAEEvents="1000"/>
+<Filter Area="EASTBOUND" Alarm="" type="15" severity="0" condition="0"/>
+<ListFont font-family="Arial" font-size="12" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" XOffset="0" YOffset="0"/>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Arial" font-size="12" text-anchor="middle" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="533" y="490" width="-220" height="-70" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" AlphaLevel="150" acr="4294901760"/>
+<text font-family="Arial" font-size="26" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">ENTRANCE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1890" y="500" width="-190" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" AlphaLevel="150" acr="4294901760"/>
+<text font-family="Arial" font-size="26" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">MIDPOINT</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="20" y="330" width="290" height="230" ox="660" oy="10" owidth="230" oheight="190"/>
+<ExtFill Style="7" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="230" y="190" width="-230" height="-190" fill="rgb(192,192,192)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle49</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="220" y="180" width="-210" height="-150" fill="syscolor(SCROLLBAR SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle50</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="10" y="0" width="210" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtLumPhotometer</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">LUMINANCE PHOTOMETER</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="60" width="90" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtLuminance</Name>
+<text font-family="Arial" font-size="8" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">LUMINANCE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="80" width="90" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtLSR</Name>
+<text font-family="Arial" font-size="8" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">LSR</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="100" width="90" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtTemperature</Name>
+<text font-family="Arial" font-size="8" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">TEMPERATURE</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="120" width="90" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">txtStatus</Name>
+<text font-family="Arial" font-size="8" text-anchor="start" font-weight="400" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">STATUS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="170" y="140" width="-20" height="-20" fill="rgb(0,192,0)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">LCAMStatusLED</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+<dci>
+<DynColor Color="255" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="100" y="100" width="120" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">LCAMTemperature</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">#</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Temperature&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="100" y="80" width="120" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">LCAMLSR</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">#</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;LSR&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="100" y="60" width="120" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">LCAMLuminance</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">#</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Var="&lt;&lt;Luminance&gt;&gt;" Format="x">1</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>base</type>
+<type x="10" y="30" width="210" height="20" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">LCAMID</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">Eastbound</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="220" y="180" width="-100" height="-40" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="" MechanicStyle="0" CentralZero="0" PushStyleEx3="92" PushStyleEx2="37" PushStyleEx="35" PushStyle="16" clickable="1" NumOptBtn="5" RadioCheckSize="0">0</Mechanic>
+<Commands/>
+<CommandsWhileDown/>
+<CommandsOnDown/>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">btnDetails</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0">DETAILS</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="22" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub Click()
+
+	globalLCAMID = ToolTip
+
+	OpenSynopticEx("LCAM info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760">LCAM_EB</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="140" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+		Dim Alias As String
+	'Set the object name as Zone ID title (left text box)
+	Dim LCAMIdObj As DrawCmdTarget
+	Set LCAMIdObj = GetSubObject("LCAMID")	'get an object handle to the text box
+	If Not (LCAMIdObj Is Nothing) Then
+		LCAMIdObj.Title = ObjectName			'set the title
+	End If
+
+	Set LCAMIdObj = GetSubObject("LCAMLuminance")
+	If Not (LCAMIdObj Is Nothing) Then
+		Alias = LCAMIdObj.GetAliasListName()
+		LCAMIdObj.SetAlias (Alias, ObjectName+"."+Alias)
+	End If
+
+	Set LCAMIdObj = GetSubObject("LCAMLSR")
+	If Not (LCAMIdObj Is Nothing) Then
+		Alias = LCAMIdObj.GetAliasListName()
+		LCAMIdObj.SetAlias (Alias, ObjectName+"."+Alias)
+	End If
+
+	Set LCAMIdObj = GetSubObject("LCAMStatusLED")
+	If Not (LCAMIdObj Is Nothing) Then
+		Alias = LCAMIdObj.GetAliasListName()
+		LCAMIdObj.SetAlias (Alias, ObjectName+"."+Alias)
+	End If
+
+	Set LCAMIdObj = GetSubObject("LCAMTemperature")
+	If Not (LCAMIdObj Is Nothing) Then
+		Alias = LCAMIdObj.GetAliasListName()
+		LCAMIdObj.SetAlias (Alias, ObjectName+"."+Alias)
+	End If
+
+	Set LCAMIdObj = GetSubObject("btnDetails")
+	If Not (LCAMIdObj Is Nothing) Then
+		LCAMIdObj.ToolTip = ObjectName
+	End If
+
+
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>base</object>
+<type x="1090" y="380" width="0" height="180" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="530" y="380" width="0" height="180" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1090" y="560" width="-550" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" AlphaLevel="150" acr="4294901760"/>
+<text font-family="Arial" font-size="26" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">THRESHOLD 1</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1370" y="560" width="-280" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" AlphaLevel="150" acr="4294901760"/>
+<text font-family="Arial" font-size="26" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">THRESHOLD 2</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1700" y="380" width="0" height="180" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="2" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1710" y="560" width="-330" height="-60" fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" AlphaLevel="150" acr="4294901760"/>
+<text font-family="Arial" font-size="26" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">TRANSITION 1</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="740" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E08</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="770" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E09</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="850" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E12</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="880" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E13</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="930" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E15</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="980" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E17</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1040" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E19</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1100" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E21</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1120" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E22</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1210" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1230" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E26</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1290" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1320" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E29</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tuNSEl name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1380" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E31</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+<child>
+<object>group</object>
+<g x="1490" y="450" width="20" height="30" ox="430" oy="60" owidth="20" oheight="40"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="20" y="40" width="-20" height="-40" fill="syscolor(WINDOW SysColor)" stroke-dasharray="2,2" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">StatusInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Value="0">0</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Status&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="8421504"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="1"/>
+</dci>
+<dci>
+<DynColor Color="8421504" Value="2"/>
+</dci>
+<dci>
+<DynColor Color="49152" Value="3"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="x">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<type>poly</type>
+<type fill="none" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">polygon</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)" points="0,35 20,35 10,5 0,35">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">AlarmInd</Name>
+<text font-family="Arial" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible Var="&lt;&lt;Alarm&gt;&gt;" Con="1" Value="0">1</Visible>
+<Transparency>0</Transparency>
+<BG Var="&lt;&lt;Alarm&gt;&gt;">1</BG>
+<BGList>
+<dci>
+<DynColor Color="255" Value="7"/>
+</dci>
+<dci>
+<DynColor Color="16776960" Value="32767"/>
+</dci>
+<dci>
+<DynColor Color="65535" Value="32768"/>
+</dci>
+</BGList>
+<EG>0</EG>
+<MX>0</MX>
+<MY>0</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+</childs>
+<Name ShowVarTooltip="1" PubName="StandardLuminaire" PresDyn="1" PresCode="1" PresCol="1" PresCom="1" StyleSourceBack="1" StyleSourceFore="1" GlobalName="1" AntialiasingFont="1" acr="4294901760">TN1_E35</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<ScriptCode StartSel="169" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Public Sub SymbolLoading()
+	Dim obj 'As DrawCmdTarget
+
+	'resolve aliases
+	Set obj = GetSubObject("StatusInd")
+	obj.SetAlias("Status", ObjectName + "."+ "Status")
+	
+
+	Set obj = GetSubObject("AlarmInd")
+	obj.SetAlias("Alarm", ObjectName + "."+ "Alarm")
+
+	'LPCs might have tunnel name before them. In this case the seperation is "__"
+	If (InStr(ObjectName,"__") &gt; 0) Then
+		Dim Parts() As String
+		Parts = Split(ObjectName,"__")
+		ToolTip = Parts(1)
+	Else
+		ToolTip = ObjectName
+	End If
+
+End Sub
+
+Public Sub Click()
+	globalLPCID = ObjectName
+
+	OpenSynopticEx("LPC info",enum_ops_openmodal,"",0,True,False)
+End Sub
+</ScriptCode>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Refactoring>
+<ListRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="State Variable - TLACS_NLP2" Var="TLACS_NLP1_CF1" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="Phone Number - TLACS_NLP2" Var="" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="State Variable - TLACS_NLP3" Var="TLACS_NLP1_CF2" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="Phone Number - TLACS_NLP3" Var="" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="State Variable - PLC" Var="PLC_CF" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="Phone Number - PLC" Var="" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="State Variable - TLACS_ELP1" Var="TLACS1_CF" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="Phone Number - TLACS_ELP1" Var="" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="State Variable - TLACS_NLP1" Var="TLACS_ELP1_CF1" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+<ChildRefactor>
+<type ImageId="33" Category="Phone Number - TLACS_NLP1" Var="" ResourceName="Modbus TCPIP" Index="0" Missing="0" ShortResourceName="Modbus TCPIP" Reason="4294967295">RefactorGenericResourceVar</type>
+</ChildRefactor>
+</ListRefactor>
+</Refactoring>
